@@ -3,7 +3,9 @@
 
 weight = int(input("Enter your weight(kg): "))
 height = int(input("Enter your height(cm): "))
-heightmetres = height/100
-answer = weight/(heightmetres*heightmetres)
+#convert height from centimetres to metres
+heightMetres = height/100
+#calculate BMI
+answer = weight/(heightMetres*heightMetres)
 txt = "The BMI is {:.2f}(kg/m²)"
 print(txt.format(answer))
