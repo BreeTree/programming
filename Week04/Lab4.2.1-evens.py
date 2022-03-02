@@ -4,6 +4,8 @@
 numberTo = 100
 evenNum = 2
 
-while evenNum < numberTo:
+while evenNum <= numberTo:
+    #do something
     print(evenNum)
-    evenNum +=2
+    #counter in the while statement
+    evenNum += 2
