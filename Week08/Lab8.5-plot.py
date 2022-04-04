@@ -9,4 +9,3 @@ ypoints = xpoints * xpoints
 
 plt.plot(xpoints, ypoints)
 plt.show()
-
